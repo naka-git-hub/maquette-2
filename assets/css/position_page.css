@@ -56,3 +56,34 @@ h1 {
 .boxContainer > nav{
     padding-top: 15px;
 }
+
+
+/* Mettre en flex les blocs div contenus dans la sectionc puis centrer dans le sens de la longueur  
+   Positionner la section au centre du main avec les bords arrondis.
+*/
+.sectionBoxContainer {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    position: relative;
+}
+
+.divChild1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.divChild2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
