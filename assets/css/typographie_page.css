@@ -1,0 +1,161 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header {
+    width: 100%;
+    background: url('../img/tobias-keller-73F4pKoUkM0-unsplash.jpg') no-repeat top center; /* Ajout de l'image de fond du header */
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: space-between; /* balise div en flex et placer les div de chaque côté de la page */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mise en place de la barre de navigation. Ne pas mettre de style au contenu de la balise ul*/
+#navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  margin-right: 1px;
+  color: rgb(255, 255, 255);
+}
+
+#navigation li a {
+  padding-right: 40px;
+  color: rgb(255, 255, 255);
+  font: 1em "Trebuchet MS",Arial,sans-serif;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Positionner la balise H1 en bas à gauche du header*/
+.boxContainer > div{
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* Ajouter un espace du haut de la barre de navigation e 15px */
+.boxContainer > nav{
+    padding-top: 15px;
+}
+
+/* Mise en place du flex en plaçant les blocs à gauche et en plaçant en colonne */
+.sectionBoxContainer {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+
+/* Appliquer une marge haute et une marge gauche au h2 */
+.titleSection {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.spanText {
+    color: rgb(151, 151, 152);
+}
+
+/* Mettre une marge au bloc div contenant la typographie px */
+.divPX {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+/* Encadrer le résultat de la typographie px dans un cadre arrondi */
+.spanResultPX {
+    margin-left: 80px;
+    font-size: 32px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+/* Mettre une marge au bloc div contenant la typographie % */
+.divPercent {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+/* Encadrer le résultat de la typographie % dans un cadre arrondi */
+.spanResultPercent {
+    margin-left: 90px;
+    font-size: 150%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+.divEm {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.spanResultEm {
+    margin-left: 80px;
+    font-size: 2em;
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+.divRem {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.spanResultRem {
+    margin-left: 80px;
+    font-size: 2.5rem;
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+.divSpanText{
+    margin-top: 70px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Permet de placer le contenu du footer en flex en bas de page */
+footer {
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    margin-top: 25px;
+}
+
+/* Permet de placer la marge extérieur bas du bloc div à 10px de la fin de page  */
+.divTextFooter {
+    margin-bottom: 20px;
+    color: rgb(151, 151, 152);
+}
