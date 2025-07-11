@@ -1,0 +1,58 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header {
+    width: 100%;
+    background: url('../img/tobias-keller-73F4pKoUkM0-unsplash.jpg') no-repeat top center; /* Ajout de l'image de fond du header */
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: space-between; /* balise div en flex et placer les div de chaque côté de la page */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mise en place de la barre de navigation. Ne pas mettre de style au contenu de la balise ul*/
+#navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  margin-right: 1px;
+  color: rgb(255, 255, 255);
+}
+
+#navigation li a {
+  padding-right: 40px;
+  color: rgb(255, 255, 255);
+  font: 1em "Trebuchet MS",Arial,sans-serif;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Positionner la balise H1 en bas à gauche du header*/
+.boxContainer > div{
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* Ajouter un espace du haut de la barre de navigation e 15px */
+.boxContainer > nav{
+    padding-top: 15px;
+}
