@@ -71,12 +71,19 @@ h1 {
     border-radius: 25px;
     font-family: "Trebuchet MS",Arial,sans-serif;
     position: relative;
+    height: 300px;
 }
 
 .divChild1 {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 1, 87);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .divChild2 {
@@ -84,6 +91,33 @@ h1 {
     height: 100px;
     background-color: rgb(238, 255, 0);
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 75%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanChild1 {
+    color: rgb(255, 254, 254);
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-weight: bold;
+}
+
+.spanChild2 {
+    color: rgb(0, 0, 0);
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-weight: bold;
+}
+
+.divRelativeAbsolute {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    color: rgb(190, 174, 174);
+}
+
+.bold {
+    font-weight: bold;
 }
